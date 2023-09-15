@@ -1,0 +1,44 @@
+.formulario {
+  display: flex;
+  flex-direction: column; /* Cambiamos la dirección de flex para apilar las imágenes encima del formulario en pantallas pequeñas */
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+ion-card {
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Estilos para el título del formulario */
+ion-card-title {
+  text-align: center;
+  color: white;
+}
+
+/* Estilos para los elementos de entrada (input) */
+ion-input {
+  margin-top: 10px;
+  padding: 10px;
+  background: #fde3be;
+  border-radius: 10px;
+  text-align: left;
+  width: 100%;
+}
+
+/* Estilos para el botón */
+ion-button {
+  --background: #EA9010;
+  color: white;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* Estilos para las imágenes */
+img {
+  max-width: 100%; /* Hacemos que las imágenes se ajusten automáticamente al ancho del contenedor padre */
+  height: auto; /* Mantenemos la proporción de aspecto original de las imágenes */
+}
+

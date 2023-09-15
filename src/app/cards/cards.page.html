@@ -1,0 +1,50 @@
+<ion-content [fullscreen]="true">
+  <ion-header class="ion-text-center">
+    <ion-toolbar>
+      <ion-buttons slot="end">
+        <ion-button (click)="back()" size="small" fill="clear">
+          Cerrar sesión
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <ion-grid class="custom-grid">
+      <ion-row>
+        <ion-col (click)="navigateToApi()" size="6">
+          <ion-card class="custom-card">
+            <ion-card-header>
+              <ion-icon size="large" name="clipboard-outline"></ion-icon>
+              <ion-card-title>Api</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col (click)="navigateToMusic()" size="6">
+          <ion-card class="custom-card">
+            <ion-card-header>
+              <ion-icon size="large" name="musical-notes-outline"></ion-icon>
+              <ion-card-title>Music</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col (click)="navigateToCamera()" size="6">
+          <ion-card class="custom-card">
+            <ion-card-header>
+              <ion-icon size="large" name="camera-outline"></ion-icon>
+              <ion-card-title>Camara</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+        <ion-col (click)="navigateToRegister()" size="6">
+          <ion-card class="custom-card">
+            <ion-card-header>
+              <ion-icon size="large" name="id-card-outline"></ion-icon>
+              <ion-card-title>Registrarse</ion-card-title>
+            </ion-card-header>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </ion-content>
+</ion-content>

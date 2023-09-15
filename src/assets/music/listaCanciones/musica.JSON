@@ -1,0 +1,33 @@
+[
+    {
+        "name": "All",
+        "date": "2023-07-30",
+        "music2": [
+            {
+                "title": "Cancion 1",
+                "tpo": true,
+                "music": "music/canciones/Boss.mp3"
+            },
+            {
+                "title": "Cancion 2",
+                "tpo": true,
+                "music": "music/canciones/cyber.mp3"
+            },
+            {
+                "title": "Cancion 3",
+                "tpo": true,
+                "music": "music/canciones/Jazz.mp3"
+            },
+            {
+                "title": "Cancion 4",
+                "tpo": true,
+                "music": "music/canciones/Long.mp3"
+            },
+            {
+                "title": "Cancion 5",
+                "tpo": true,
+                "music": "music/canciones/Mobile.mp3"
+            }
+        ]
+    }
+]
